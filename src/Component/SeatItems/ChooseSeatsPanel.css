@@ -1,0 +1,276 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.SelectSeatsPanel {
+    background-image: url('./movie-details-bg.jpg');
+    color: #fff;
+    width: 100%;
+    padding-top: 20px;
+}
+
+.SelectSeatsPanel h1 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: white;
+    background-image: url(../Booking/ImageBooking/selected_f.png) !important;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 15%;
+    text-align: center;
+    padding: 8px;
+    margin-left: 20px;
+}
+
+.SelectSeatsPanel .cus-iframe {
+    width: 60%;
+    font-size: 18px;
+    margin-bottom: 10px;
+    margin-left: 20px;
+}
+
+.SelectSeatsPanel .cus-iframe b {
+    color: #8bc34a;
+    font-weight: bold;
+}
+
+.SelectSeatsPanel .select-seats-container {
+    max-width: 727px;
+    overflow: hidden;
+    margin: auto;
+    padding-top: 12px;
+}
+
+.select-seats-container .divLegend {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.select-seats-container .divLegend .legend-container {
+    margin: 0 9px 5px 0;
+    display: inline-block;
+}
+
+.select-seats-container .divLegend .legend-container img {
+    height: 25px;
+    vertical-align: middle;
+}
+
+.select-seats-container .divLegend .legend-container span {
+    height: 25px;
+    vertical-align: middle;
+}
+
+.select-seats-container .legend-container .legend {
+    margin-left: 3px;
+}
+
+/*  */
+.divSeatMap {
+    margin-bottom: 20px;
+}
+
+.select-seats-container .Seating-Control {
+    background: #14252d;
+    overflow: auto;
+    position: relative;
+    margin: 5px auto;
+    height: 400px;
+}
+
+.select-seats-container .Seating-Control>div {
+    margin: auto;
+    overflow: visible;
+    height: 314px;
+}
+
+.select-seats-container .Seating-Control .Seating-Screen {
+    width: 400px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    position: relative;
+    height: 20px;
+    margin: 0 auto;
+
+}
+
+.select-seats-container .Seating-Control .Seating-Screen img {
+    width: 100%;
+    position: absolute;
+    left: 0px;
+    height: 30px;
+}
+
+.select-seats-container .Seating-Control .Seating-Screen span {
+    position: absolute;
+    margin-top: 4px;
+    color: white;
+    font-weight: bold;
+    left: 165px;
+}
+
+.select-seats-container .Seating-Control .Seating-Container {
+    width: 440px;
+    height: 250px;
+    visibility: visible;
+    position: relative;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 15px;
+}
+
+.Seating-Container .Seating {
+    display: flex;
+}
+
+.Seating-RowLabelContainer-Left {
+    color: black;
+    height: 100%;
+    position: relative;
+    display: inline-block;
+    width: 15px;
+    text-align: center;
+    font-size: 15px;
+    font-weight: bold;
+    margin-top: 25px;
+}
+
+.Seating-RowLabelContainer-Left li {
+    position: absolute;
+    top: 0%;
+    height: 100%;
+    width: 100%;
+    border-collapse: collapse;
+    padding: 0;
+    margin: 0;
+    border-spacing: 0;
+    list-style: none;
+}
+
+.Seating-Area li {
+    list-style: none;
+}
+
+.Seating-RowLabelContainer-Right {
+    color: black;
+    position: relative;
+    text-align: center;
+    font-size: 15px;
+    font-weight: bold;
+    margin-top: 25px;
+    background-color: #fff;
+}
+
+.Seating-RowLabelContainer-Right li {
+    position: absolute;
+    top: 0%;
+    height: 100%;
+    width: 100%;
+    border-collapse: collapse;
+    padding: 0;
+    margin: 0;
+    border-spacing: 0;
+    list-style: none;
+}
+
+.Seating-Theatre {
+    width: 400px;
+    position: relative;
+    display: flex;
+    margin: 0 auto;
+}
+
+.Seating-Theatre .Seating-Area {
+    left: 0%;
+    top: 0%;
+    width: 100%;
+    height: 100%;
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+    border-collapse: collapse;
+    border-spacing: 0;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+.Seating-Theatre .Seating-Area button {
+    line-height: 25px;
+    width: 25px;
+    color: white;
+    position: absolute;
+    z-index: 1;
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+    font-size: 11px;
+    display: table-cell;
+    cursor: pointer;
+    background-image: url('./ImageBooking/standard_available.png');
+}
+
+.Seating-Theatre .Seating-Area button:active{
+    background-image: url('./ImageButton/standard_selected.png');
+}
+
+.Seating-Theatre .Seating-Area button:focus {
+    background-image: url('./ImageButton/standard_selected.png');
+}
+
+
+/*  */
+.confirm {
+    display: flex;
+    justify-content: flex-end;
+
+}
+
+.confirm p {
+    text-transform: uppercase;
+    margin-right: 150px;
+    font-size: 20px;
+    font-weight: bold;
+    color:white;
+    background-color: #0ab429;
+    padding: 5px;
+}
+
+.confirm .page-action {
+    margin: 0;
+    padding: 3px;
+    color: #f5f5f5;
+    background-color: #1d4d03;
+    font-family: "Work Sans", sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 24px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.confirm .page-action:hover {
+    background-color: #14252d;
+}
+
+
+/*  ----------------PAYMENT---------------- */
+.cart-summary {
+    margin-bottom: 10px;
+    max-width: 100%;
+    background: #333;
+    clear: both;
+    overflow: hidden;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    line-height: 20px;
+    position: relative;
+}
+
+.err {
+    color: red;
+    font-size: 20px;
+    float: right;
+    margin-top: 10px;
+}

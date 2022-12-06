@@ -1,0 +1,121 @@
+.comment {
+    width: auto;
+    height: auto;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.left-tag {
+    display: flex;
+    flex-direction: row;
+    overflow-x: auto;
+    background-color: rgb(16, 49, 5);
+}
+
+.left-tag:hover {
+    cursor: pointer;
+}
+
+.left-comment .left-tag {
+    padding-top: 10px;
+}
+
+.left-comment .left-tag .tag {
+    position: relative;
+    /* z-index: 999999999; */
+    min-width: 120px;
+    min-height: 60px;
+    border-right: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    word-break: keep-all;
+
+}
+
+.left-comment .left-tag .tag:last-child {
+    border-right: none;
+}
+
+.tag a {
+    font-size: 15px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: white;
+}
+
+.right-comment {
+    content: '';
+    background: url(./ImageBackgroundComment/movie-details-bg.jpg);
+    background-position: top;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    position: relative;
+    color: white;
+}
+
+.right-comment .content-comment {
+    display: flex;
+    flex-direction: row;
+}
+
+.right-comment .content-comment .info-user-comment {
+    display: flex;
+    flex-direction: column;
+    min-width: 15%;
+    word-break: keep-all;
+    margin-bottom: 20px;
+}
+
+.right-comment .content-comment .info-user-comment p {
+    margin-left: 10px;
+    line-height: 26px;
+}
+/* Sửa chỗ này */
+.right-comment .content-comment .avatar {
+    min-width: 110px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+/* Sửa chỗ này */
+.right-comment .content-comment img {
+    margin-left: 10px;
+    margin-top: 5px;
+    width: 100px;
+    padding-right: 20px;
+    height: 120px;
+}
+
+/* .right-comment .detail-user-comment {
+    width: 64%;
+    border-right: 2px solid lightgray;
+    word-break: break-all;
+} */
+
+.right-comment .content-comment .detail-user-comment {
+    word-break: keep-all;
+}
+
+.right-comment .content-comment .detail-user-comment p {
+    margin-left: 10px;
+    line-height: 26px;
+}
+
+.right-comment .ShowName-Comment {
+    color: white;
+    font-weight: bold;
+}
+
+.right-comment .right-content .Id-Comment {
+    font-weight: bold !important;
+}
+
+.no-comment {
+    background: url(./ImageBackgroundComment/movie-details-bg.jpg);
+    height: 550px;
+    font-size: 50px;
+    color: rgb(209, 225, 225);
+    padding-top: 100px;
+    padding-left: 100px;
+}

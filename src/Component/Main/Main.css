@@ -1,0 +1,245 @@
+.slider {
+  position: relative;
+}
+
+.main {
+  overflow: hidden;
+}
+
+.left-arrow {
+  position: absolute;
+  top: 50%;
+  left: 32px;
+  font-size: 5rem;
+  color: #ffffff;
+  z-index: 10;
+  cursor: pointer;
+  user-select: none;
+}
+
+.right-arrow {
+  position: absolute;
+  top: 50%;
+  right: 32px;
+  font-size: 5rem;
+  color: #ffffff;
+  z-index: 10;
+  cursor: pointer;
+  user-select: none;
+}
+
+.bottom-arrow {
+  position: absolute;
+  top: 100%;
+  left: 47.4%;
+  font-size: 5rem;
+  color: #ffffff;
+  z-index: 10;
+  cursor: pointer;
+  user-select: none;
+  margin-top: 50px;
+}
+
+.slide {
+  opacity: 0.8;
+  transition-delay: 0.1s;
+  transition-duration: 1s ease;
+}
+
+.slide.active {
+  display: inline;
+  opacity: 1;
+  transition-duration: 1s;
+  transform: scale(1.08);
+}
+
+.images-slider {
+  max-width: 100%;
+  min-width: 1075px;
+  height: auto;
+  position: relative;
+  left: 50%;
+  transform: translate(-50%, 0);
+  -moz-transform: translate(-50%, 0);
+  -webkit-transform: translate(-50%, 0);
+}
+
+/* ---------------------------------------------------------------------------- */
+.section--product-view {
+  padding-bottom: 50px;
+  padding: 70px 0 90px;
+  font-family: 'proxima_nova';
+  line-height: 29px;
+  text-align: center;
+  font-size: 24px;
+  font-weight: 700;
+  position: relative;
+  z-index: 20;
+  margin-top: -40px;
+}
+
+.section--product-view::before {
+  content: '';
+  background: url(./SliderFilm/ImageBackgroundFilm/movie-details-bg.jpg);
+  background-position: top;
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 39px;
+  left: 0;
+  width: 100%;
+  height: calc(100% - 39px);
+}
+
+.section--product-view:after {
+  content: '';
+  background: url(./SliderFilm/ImageBackgroundFilm/scroll-down.png) center top repeat-y;
+  position: absolute;
+  top: -121px;
+  left: 0;
+  width: 100%;
+  height: 160px;
+}
+
+
+.section--promotion {
+  background: url(../Main/SliderFilm/ImageBackgroundFilm/bg-home-02.jpg) repeat-x;
+  background-size: 100% 100%;
+  padding-bottom: 150px;
+  padding: 50px 0 25px;
+  text-align: center;
+}
+
+.promotion>img {
+  width: 430px;
+  height: 250px;
+  margin: auto;
+  margin-bottom: 50px;
+}
+
+.title--promotion {
+  font-size: 28px;
+  line-height: 40px;
+  margin: 0;
+  font-weight: 300;
+  text-transform: uppercase;
+  margin-bottom: 28px;
+  position: relative;
+}
+
+.promotion-1 {
+  border-bottom: 1px solid #bcdc95;
+  display: inline-block;
+  font-weight: 600;
+  margin-right: 10px;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #bcdc95;
+}
+
+.promotion-1>span:hover {
+  cursor: pointer;
+}
+
+.promotion-2 {
+  border-bottom: 1px solid #bcdc95;
+  display: inline-block;
+  font-weight: 600;
+  margin-left: 10px;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #bcdc95;
+}
+
+.promotion-2>span:hover {
+  cursor: pointer;
+}
+
+
+/* Thêm đoạn này vào nhé */
+.main .section--promotion .slick-dots li {
+  background-color: #ffffff;
+  border-radius: 20px;
+}
+
+.main .slick-dots li button:before {
+  content: unset;
+}
+
+.main .slick-dots li button:hover {
+  background-color: green;
+  border-radius: 20px;
+}
+
+.main .section--promotion .slick-dots {
+  bottom: -60px;
+}
+
+/*  */
+
+.slider--film--main--full .btn--greenn {
+  width: 100%;
+  max-width: 200px;
+  height: 45px;
+  margin: 0 auto;
+  border-radius: 3px;
+  line-height: 45px;
+  display: block;
+  font-size: 15px;
+  text-decoration: none;
+  color: #ffffff;
+  background: url(../Main/SliderFilm/ImageButton/bg-btn-green.jpg) repeat;
+  font-weight: 700;
+}
+
+.slider--film--mainn .movie--name {
+  color: #fff;
+  display: block;
+  padding: 15px 0;
+  margin: 0 auto;
+  width: 200px;
+  line-height: 22px;
+  height: 80px;
+  overflow: hidden;
+  transition: all 0.4s ease;
+}
+
+.slider--film--mainn>img {
+  width: 200px;
+  height: 300px;
+}
+
+.movie--name {
+  color: #ffffff;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: none;
+  font-size: 20px;
+  width: 200px;
+  overflow-wrap: break-word;
+}
+
+.main .section--product-view .slick-next {
+  position: absolute !important;
+  z-index: 999999999;
+  width: unset !important;
+  top: 40% !important;
+  margin-right: 25px;
+}
+
+.main .section--product-view .slick-next::before {
+  font-size: 50px !important;
+  line-height: unset;
+}
+
+.main .section--product-view .slick-prev {
+  position: absolute !important;
+  z-index: 999999999;
+  width: unset !important;
+  top: 40% !important;
+  margin-left: 22px;
+}
+
+
+.main .section--product-view .slick-prev::before {
+  font-size: 50px !important;
+  line-height: unset;
+}

@@ -1,0 +1,205 @@
+/* Common */
+.slick-dots li button:before {
+    font-size: 15px !important;
+    color: white !important;
+    margin-top: 70px !important;
+}
+
+/*  */
+
+.warper-content {
+    background: url(./ImageBackgroundDetailMovie/movie-details-bg.jpg);
+    background-repeat: no-repeat;
+    color: #fff;
+    overflow: auto;
+    height: 90vh;
+}
+
+.film--detail-content-top {
+    padding-bottom: 9px;
+}
+
+.film--detail-content-top .row {
+    display: flex;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+.col-thubnail-bhd {
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.col-thubnail-bhd img {
+    width: 180px;
+}
+
+.movie-full {
+    width: 160px;
+}
+
+.product--view {
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.product--view .product--name h3 {
+    display: inline-block;
+    margin: 0;
+    font-weight: 400;
+    font-size: 24px;
+    vertical-align: top;
+    text-transform: uppercase;
+    margin-top: 10px;
+}
+
+.product--view .film--detail {
+    padding-top: 18px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    color: #a6b2c9;
+    line-height: 26px;
+    font-weight: 400;
+}
+
+.product--view .film--info {
+    margin-bottom: 10px;
+    display: flex;
+}
+
+.product--view .time {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.product--view .film--info li {
+    position: relative;
+    padding-left: 100px;
+    list-style: none;
+    width: 140px;
+    height: 30px;
+    background-color: #10171e;
+    margin-right: 15px;
+
+}
+
+.product--view .film--info li:hover {
+    background-color: #42af33;
+}
+
+.product--view .film--info .col-left {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 8px 10px 8px 25px;
+}
+
+.product--view .film--info span {
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    color: #e8eff5;
+}
+
+
+.lich-chieu-phim {
+    min-height: 200px;
+    color: #fff;
+    background-position: top;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    margin-top: 0;
+    padding-top: 35px;
+    
+}
+
+.lich-chieu-phim::after {
+    content: '';
+    bottom: 0;
+    left: 0;
+    height: 250px;
+    position: absolute;
+    width: 100%;
+    top: auto;
+}
+
+.lich-chieu-phim .mua_ve {
+    text-align: center;
+    text-transform: uppercase;
+    margin: 10px 5px;
+    padding: 15px 0;
+    font-size: 24px;
+}
+
+.lich-chieu-phim .list--times {
+    position: relative;
+    max-width: 970px;
+    margin: 0 auto;
+    z-index: 97;
+    display: flex;
+    justify-content: center;
+}
+
+.flexslider {
+    position: relative;
+    width: 800px;
+}
+
+.flex-viewport {
+    overflow: hidden;
+    position: relative;
+    display: flex;
+}
+
+.tab--showtimes-controls {
+    width: 100%;
+    transition-duration: 0s;
+}
+
+.tab--showtimes-controls li {
+    width: 70px !important;
+    text-align: center;
+    display: inline-block;
+}
+
+.tab--showtimes-controls .tab--control:hover {
+    background-color: #42af33;
+    color: #ffffff !important;
+}
+
+.tab--showtimes-controls .tab--control {
+    display: block;
+    text-decoration: none;
+    font-weight: 500;
+    line-height: 24px;
+    padding: 8px 0;
+    border-bottom: 2px solid #212b35;
+    transition: 0.4s ease all;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    width: 100px;
+}
+
+.tab--showtimes-controls .tab--control .week {
+    font-size: 18px;
+    color: #8c9bb4;
+    display: block;
+}
+
+.tab--showtimes-controls .tab--control .day {
+    font-size: 16px;
+    color: #8c9bb4;
+    display: block;
+}
+
+.product--name h2 {
+    width: 30px;
+    background-color: rgb(167, 5, 5);
+}
+
+.film--detail h2{
+    color: orangered;
+}

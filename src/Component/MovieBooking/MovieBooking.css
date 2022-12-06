@@ -1,0 +1,332 @@
+.slick-dots li button:before {
+    font-size: 15px !important;
+    color: white !important;
+    margin-top: 70px !important;
+}
+
+
+.booking-info {
+    width: 100%;
+    background: url(./ImageBackgroundDetailMovie/movie-details-bg.jpg);
+    background-repeat: round;
+    height: auto;
+}
+
+.movie-schedule {
+    min-height: 350px;
+    position: relative;
+    color: #fff;
+    background-position: top;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    margin-top: 0;
+    padding-top: 35px;
+    padding-bottom: 30px;
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+
+.movie-schedule::after {
+    content: '';
+    bottom: 0;
+    left: 0;
+    height: 350px;
+    position: absolute;
+    width: 100%;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 1) 100%);
+    top: auto;
+}
+
+.movie-schedule .ticket-info {
+    text-align: center;
+    text-transform: uppercase;
+    margin: 10px 5px;
+    border-bottom: 2px solid #608a2e;
+    padding: 15px 0;
+    font-size: 20px;
+}
+
+
+.movie-schedule .list-times {
+    position: relative;
+    margin: 0 auto;
+    z-index: 97;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.movie-schedule .list-times .flexslider {
+    position: relative;
+}
+
+.viewport {
+    overflow: hidden;
+    position: relative;
+    display: flex;
+}
+
+.tab-showtimes-controls {
+    width: 100%;
+    transition-duration: 0s;
+    font-size: 0;
+}
+
+.tab-showtimes-controls li {
+    width: 70px !important;
+    text-align: center;
+    display: inline-block;
+}
+
+.tab-showtimes-controls li:hover {
+    background-color: #37516c;
+    color: #ffffff;
+}
+
+
+.tab-showtimes-controls .tab-control {
+    display: block;
+    text-decoration: none;
+    font-weight: 500;
+    line-height: 24px;
+    padding: 8px 0;
+    border-bottom: 2px solid #212b35;
+    transition: 0.4s ease all;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.tab-showtimes-controls .tab-control .week {
+    font-size: 14px;
+    color: #8c9bb4;
+    display: block;
+}
+
+.tab-showtimes-controls .tab-control .day {
+    font-size: 12px;
+    color: #8c9bb4;
+    display: block;
+}
+
+.tab-showtimes-contents .tab-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.booking-info .list-showtimes-cinema {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    width: 1400px;
+    margin-top: 40px;
+}
+
+.tab-showtimes-contents .tab-content .item-showtimes-cinema {
+    display: list-item;
+    min-height: 180px;
+    padding-top: 24px;
+    position: relative;
+    padding-left: 240px;
+    position: relative;
+    text-align: left;
+    list-style: none;
+    margin-bottom: 35px;
+}
+
+.item-showtimes-cinema .info {
+    height: auto;
+    position: absolute;
+    top: 10px;
+    left: 0;
+    width: 215px;
+    line-height: 24px;
+    box-shadow: 3px 5px 21px 0px rgb(5 12 17);
+}
+
+.item-showtimes-cinema .info .inside {
+    padding: 19px 17px;
+    background-color: #121c26;
+}
+
+.item-showtimes-cinema .info .inside:hover {
+    background-color: #37516c;
+}
+
+.item-showtimes-cinema .info .title {
+    color: #ffffff;
+    font-size: 16px;
+    margin: 0;
+    line-height: 24px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.item-showtimes-cinema .info .inside>p {
+    color: #90a0ba;
+    font-size: 12px;
+    margin: 0;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.item-showtimes-cinema .info .btn--location {
+    background: #42af33;
+    color: #ffffff;
+    font-size: 12px;
+    display: block;
+    height: 30px;
+    line-height: 32px;
+    text-align: center;
+    position: relative;
+    text-decoration: none;
+    z-index: 2;
+    box-shadow: 8px 14px 16px 0px rgb(32 32 32 / 32%);
+    transition: 0.4s ease all;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.date {
+    display: block;
+}
+
+.date .list-film-type {
+    position: relative;
+    list-style: none;
+}
+
+.date .list-film-type .item--film-type {
+    position: relative;
+    padding-left: 113px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    min-height: 120px;
+}
+
+.date .list-film-type .type {
+    position: absolute;
+    top: 10px;
+    left: 0;
+    font-size: 14px;
+    line-height: 23px;
+    color: #97a5be;
+    padding-left: 37px;
+}
+
+.date .list-film-type .type-span {
+    display: block;
+    padding: 0px 5px;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 700;
+    background: #42af33;
+    color: #fff;
+    border-radius: 2px;
+    max-width: 50px;
+}
+
+.date .list-film-type .film-rating {
+    margin-top: 10px;
+    padding: 3px;
+    background: none;
+    border: 2px solid #f8090f;
+    color: #f8090f;
+    display: block;
+    padding: 0px 5px;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 700;
+    border-radius: 2px;
+    max-width: 50px;
+}
+
+.lsTime {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.date .list-film-type .times {
+    display: block;
+    font-size: 0;
+    
+}
+
+
+.date .list-film-type .times li {
+    display: inline-block;
+}
+
+.list-film-type .times .time {
+    display: block;
+    font-size: 20px;
+    color: #dae0ea;
+    width: 180px;
+    line-height: 43px;
+    text-align: center;
+    border: 2px solid #121c26;
+    margin-right: 12px;
+    margin-bottom: 15px;
+    text-decoration: none;
+    transition: 0.4s ease all;
+    background-color: #182431;
+    box-shadow: 3px 5px 21px 0px rgb(2, 10, 16);
+}
+
+.list-film-type .times .time:hover {
+    background-color: #37516c;
+}
+
+.film--detail-bottom {
+    padding-bottom: 100px;
+}
+
+.lsCin {
+    display: flex;
+}
+
+.cinemaList {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    line-height: 24px;
+    flex-direction: column;
+    list-style: none;
+}
+
+.cinemaList li {
+    margin-right: 20px;
+    background-color: #151f28;
+    box-shadow: 3px 5px 21px 0px rgb(5 12 17);
+    width: 120px;
+    height: 100px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.cinemaList li:hover {
+    background-color: #37516c;
+}
+
+.subCinInfo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.cinInfo img {
+    width: 50px;
+    border-radius: 2px;
+    margin-right: 5px;
+    border-radius: 8px;
+}
+
+.cinInfo h4 {
+    color: #ffffff;
+    font-size: 14px;
+    margin: auto;
+}

@@ -1,0 +1,182 @@
+.section--product-view {
+    padding-bottom: 50px;
+    padding: 70px 0 90px;
+    font-family: 'proxima_nova';
+    line-height: 29px;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 700;
+    position: relative;
+    z-index: 20;
+    margin-top: -40px;
+}
+
+.section--product-view::before {
+    content: '';
+    background: url(../SliderFilm/ImageBackgroundFilm/movie-details-bg.jpg);
+    background-position: top;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 39px;
+    left: 0;
+    width: 100%;
+    height: calc(100% - 39px);
+}
+
+.section--product-view:after {
+    content: '';
+    background: url(../SliderFilm/ImageBackgroundFilm/scroll-down.png) center top repeat-y;
+    position: absolute;
+    top: -121px;
+    left: 0;
+    width: 100%;
+    height: 160px;
+}
+
+.btn--green {
+    width: 100%;
+    max-width: 200px;
+    height: 45px;
+    margin: 0 auto;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    line-height: 45px;
+    display: block;
+    font-size: 15px;
+    text-decoration: none;
+    color: #ffffff;
+    background: url(../SliderFilm/ImageButton/bg-btn-green.jpg) repeat;
+    font-weight: 700;
+    transition: 0.4s ease all;
+    margin-top: 15px;
+}
+
+.fa-ticket {
+    padding-right: 8px;
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 600;
+}
+
+.slider--film--main {
+    display: flex !important;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.slider--film--main>img {
+    width: 200px;
+    height: 300px;
+    margin: auto;
+    margin-bottom: 15px;
+}
+
+.movie--name {
+    color: #ffffff;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: none;
+    font-size: 20px;
+    width: 200px;
+    overflow-wrap: break-word;
+}
+
+.section--promotion {
+    background: url(./ImageBackgroundFilm//bg-home-02.jpg) repeat-x;
+    background-size: 100% 100%;
+    padding-bottom: 150px;
+    padding: 50px 0 25px;
+    text-align: center;
+}
+
+.promotion>img {
+    width: 430px;
+    height: 250px;
+    margin: auto;
+    margin-bottom: 50px;
+}
+
+.title--promotion {
+    font-size: 28px;
+    line-height: 40px;
+    margin: 0;
+    font-weight: 300;
+    text-transform: uppercase;
+    margin-bottom: 28px;
+    position: relative;
+}
+
+.promotion-1 {
+    border-bottom: 1px solid #bcdc95;
+    display: inline-block;
+    font-weight: 600;
+    margin-right: 10px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #bcdc95;
+}
+
+.promotion-2 {
+    border-bottom: 1px solid #bcdc95;
+    display: inline-block;
+    font-weight: 600;
+    margin-left: 10px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #bcdc95;
+}
+
+.promotion-3 {
+    border-bottom: 1px solid #bcdc95;
+    display: inline-block;
+    font-weight: 600;
+    margin-left: 20px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #bcdc95;
+}
+
+/*  */
+.section--product-view .slick-dots li button:before {
+    font-size: 20px !important;
+    color: white !important;
+    margin-top: 70px;
+}
+
+.slick-dots li button:before {
+    font-size: 20px !important;
+    color: white !important;
+}
+
+.slick-dots {
+    margin-bottom: 52px !important;
+}
+
+.slider--film--main {
+    display: flex !important;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.slider--film--main>img {
+    width: 200px;
+    height: 300px;
+    margin: auto;
+    margin-bottom: 15px;
+}
+
+.movie--name {
+    color: #ffffff;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: none;
+    font-size: 20px;
+    width: 200px;
+    overflow-wrap: break-word;
+}

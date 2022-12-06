@@ -1,0 +1,504 @@
+/* Common */
+section {
+    display: block;
+}
+
+article {
+    display: block;
+    font: inherit;
+    font-family: "Roboto", sans-serif !important;
+    line-height: 1.4em;
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+/* Content */
+.content1 {
+    background: #000;
+    width: 100%;
+}
+
+.content {
+    max-width: 1170px;
+    margin-bottom: 40px;
+    background: #000;
+    width: 100%;
+    padding: 15px;
+    margin: 0 auto;
+    overflow: hidden;
+    position: relative;
+    z-index: 2;
+    min-height: 500px;
+}
+
+.content .select-tickets {
+    margin-top: 20px;
+}
+
+.content .select-tickets .breadcrumb {
+    padding: 0px !important;
+    background: #000000;
+    height: 45px;
+    color: #fff;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 25px;
+    margin-bottom: 20px;
+    text-align: justify;
+    overflow: hidden;
+}
+
+.content .breadcrumb .selected {
+    color: #fff;
+}
+
+.breadcrumb span {
+    cursor: default;
+    display: inline-block;
+}
+
+.content .select-tickets .selected:first-child {
+    text-align: center;
+    padding: 10px;
+    background-image: url(../Booking/ImageBooking/selected_f.png) !important;
+    background-repeat: no-repeat;
+    width: 21.2%;
+    background-size: 100% 100%;
+    line-height: inherit;
+    float: left;
+}
+
+.order-details {
+    float: right;
+}
+
+.cart-order {
+    background: #333;
+    width: 300px;
+    color: #fff;
+    min-height: 150px;
+    clear: right;
+    float: right;
+    padding-bottom: 50px;
+    line-height: 20px;
+    position: relative;
+}
+
+.cart-order h2 {
+    font-size: 22px;
+    color: #fff;
+    background: #333;
+    border-bottom: 1px solid #fff;
+    margin-bottom: 20px;
+    height: auto;
+    padding: 10px;
+    font-weight: 600;
+    margin: 0;
+    line-height: 26px;
+    position: relative;
+}
+
+.cart-order span {
+    vertical-align: top;
+}
+
+.cart-order h2::after {
+    border-width: 0 8px 8px 8px;
+    border-style: solid;
+    border-color: transparent transparent #eaeaea transparent;
+    bottom: 0;
+    content: ' ';
+    left: 13px;
+    position: absolute;
+    box-sizing: border-box;
+}
+
+.cart-sessions li {
+    position: relative;
+}
+
+.cart-order li {
+    overflow: hidden;
+    text-align: right;
+}
+
+.cart-sessions .cart-current-session .cart-session-information {
+    font-weight: bold;
+    padding: 0 5px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.cart-current-session .cart-session-information .name {
+    font-weight: normal;
+    color: #89c441;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width: 160px;
+    word-wrap: normal;
+    text-align: left;
+    display: inline-block;
+    margin-top: 13px;
+    padding-left: 20px;
+}
+
+.cart-current-session .cart-session-information .price-cart-session-total {
+    text-align: right;
+    display: inline-block;
+    margin-top: 13px;
+}
+
+.cart-sessions .cart-tickets .cart-ticket {
+    padding-left: 25px;
+    padding-top: 10px;
+    margin-bottom: 5px;
+    overflow: hidden;
+    min-height: 40px;
+    padding: 0 5px;
+}
+
+.cart-order .item-detail {
+    width: auto;
+    text-align: left;
+    vertical-align: top;
+    display: inline-block;
+}
+
+.cart-order .name {
+    width: 160px;
+    text-align: left;
+    white-space: normal;
+    word-wrap: break-word;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+.cart-order .quantity {
+    color: #8BC34A;
+    height: 22px;
+    margin-right: 10px;
+    text-align: center;
+    width: 20px;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+.cart-order .cost {
+    width: auto;
+    text-align: right;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+.cart-order .cart-footer {
+    padding: 10px 10px 10px 10px;
+    border-top: 2px solid rgba(221, 221, 221, 0.12);
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    right: 0;
+}
+
+.cart-order .total {
+    color: #fff;
+    font-weight: bold;
+    font-size: 14px;
+    overflow: hidden;
+    text-align: right;
+}
+
+.cart-order .names {
+    width: 160px;
+    text-align: left;
+    white-space: normal;
+    word-wrap: break-word;
+    display: inline-block;
+}
+
+.session-overview {
+    color: rgb(239, 239, 246);
+    width: calc((100%) - 300px);
+    margin-bottom: 30px;
+    overflow: hidden;
+}
+
+.session-overview .movie-poster {
+    float: left;
+    margin-right: 15px;
+    height: 200px !important;
+    width: 140px !important;
+}
+
+.session-overview .movie-title {
+    line-height: 20px;
+    font-size: 20px;
+    color: #89c441;
+    font-weight: 400;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    margin-top: 10px;
+}
+
+.session-overview .session-time {
+    line-height: 20px;
+    margin-top: 10px;
+    color: rgb(239, 239, 246);
+}
+
+.session-overview .cinema-screen-name {
+    line-height: 20px;
+    margin-top: 10px;
+    color: rgb(239, 239, 246);
+}
+
+.SelectTicketsPanel>h3 {
+    font-weight: bold;
+    color: red;
+    font-size: 20px;
+    margin: 0;
+}
+
+.SelectTicketsPanel .main-page-blurb {
+    margin-bottom: 30px;
+    line-height: 24px;
+    color: rgb(239, 239, 246);
+}
+
+.SelectTicketsPanel .main-page-blurb>p>b {
+    color: #8bc34a;
+    font-weight: bold;
+    margin-left: 5px;
+}
+
+.SelectTicketsPanel .category-tabs {
+    width: auto;
+    float: left;
+    position: relative;
+    overflow: hidden;
+}
+
+.SelectTicketsPanel .category-tabs .categories-ui-corner-all {
+    text-transform: capitalize;
+    float: left;
+    border: 1px solid #93908f;
+    width: 160px;
+    margin-right: -1px;
+    border-color: #8BC34A;
+}
+
+.SelectTicketsPanel .category-tabs .tab-list-item-standard {
+    background: #8BC34A;
+    position: relative;
+    padding: 10px;
+    line-height: 42px;
+    height: 42px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.SelectTicketsPanel .category-tabs .tab-list-item-standard::before {
+    content: ' ';
+    border-color: transparent #8BC34A transparent transparent;
+    border-style: solid;
+    border-width: 10px 10px 10px 0;
+    position: absolute;
+    right: -1px;
+    top: 50%;
+    margin-top: -10px;
+    box-sizing: border-box;
+}
+
+.SelectTicketsPanel .category-tabs .tab-list-item-standard::after {
+    content: ' ';
+    border-color: transparent #1b1b1b transparent transparent;
+    border-style: solid;
+    border-width: 8px 8px 8px 0;
+    position: absolute;
+    right: -1px;
+    top: 50%;
+    margin-top: -8px;
+    box-sizing: border-box;
+}
+
+.SelectTicketsPanel .tab-list-item-standard>a {
+    border-top: none;
+    color: #ffffff;
+    border: none;
+    font-size: 14px;
+    padding: 0;
+    display: block;
+    font-weight: bold;
+}
+
+.SelectTicketsPanel .category-tabs .ticket-list {
+    border-color: #8BC34A;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    float: left;
+    border: 1px solid #8BC34A;
+    width: 570px;
+    padding: 0 0 0 0;
+}
+
+.category-tabs .ticket-list .tab {
+    overflow: hidden;
+    margin: 15px;
+}
+
+.category-tabs .tab>h6 {
+    font-size: 16px;
+    display: inline-block;
+    color: #ffffff;
+}
+
+.category-tabs .tab>h6:first-child {
+    text-align: left;
+}
+
+.category-tabs .tab .desc {
+    width: 40%;
+}
+
+.category-tabs .tab .cost-header {
+    width: 20%;
+    text-align: center;
+}
+
+.category-tabs .tab .quantity-header {
+    width: 20%;
+}
+
+.category-tabs .tab .sub-total-header {
+    width: 20%;
+    text-align: right;
+}
+
+.ticket-list .tab {
+    color: #ffffff;
+}
+
+.ticket-list .item>*:first-child {
+    text-align: left;
+
+}
+
+.ticket-list .item>* {
+    display: inline-block;
+    text-align: center;
+}
+
+.ticket-list .item .desc {
+    width: 40% !important;
+}
+
+.ticket-list .item .ticket-description {
+    display: block;
+    font-size: 12px;
+}
+
+.ticket-list .item .price {
+    width: 20% !important;
+    font-size: 12px;
+}
+
+.ticket-list .item .ticket-quantity {
+    width: 20% !important;
+    font-size: 12px;
+    height: 34px;
+    padding: 2px;
+    line-height: 30px;
+    white-space: nowrap;
+}
+
+.ticket-quantity>* {
+    vertical-align: middle;
+    box-sizing: border-box;
+    background: #fff;
+    color: #000;
+}
+
+.ticket-list .ticket-quantity .icon-minus {
+    border-radius: 0;
+    background: none;
+    color: #8BC34A;
+    font-weight: bolder;
+    font-size: 18px;
+    display: inline-block;
+    padding: 5px 10px;
+    width: auto;
+    height: auto;
+    border: 1px solid #4a4a4a;
+    position: static;
+    top: 1px;
+    font-family: 'Glyphicons Halflings';
+    font-style: normal;
+    line-height: 1;
+}
+
+.ticket-list .ticket-quantity .icon-minus::before {
+    content: "\2212";
+    box-sizing: border-box;
+}
+
+.ticket-list .ticket-quantity .quantity-valid {
+    border: 1px solid #4a4a4a;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    padding: 8px;
+}
+
+.ticket-list .ticket-quantity .icon-plus {
+    border-radius: 0;
+    background: none;
+    color: #8BC34A;
+    font-weight: bolder;
+    font-size: 18px;
+    display: inline-block;
+    padding: 5px 10px;
+    width: auto;
+    height: auto;
+    border: 1px solid #4a4a4a;
+    position: static;
+    top: 1px;
+    font-family: 'Glyphicons Halflings';
+    font-style: normal;
+    line-height: 1;
+}
+
+.ticket-list .ticket-quantity .icon-plus::before {
+    content: "\002b";
+    box-sizing: border-box;
+}
+
+.ticket-list .item .sub-total {
+    font-size: 12px;
+    text-align: right;
+    width: 20%;
+}
+
+.divOrderTickets {
+    clear: both;
+    text-align: right;
+    margin-top: 10px;
+}
+
+.divOrderTickets .page-action {
+    vertical-align: bottom;
+    display: inline-block;
+    margin: 0;
+    padding: 8px 30px 8px 30px;
+    color: #f5f5f5;
+    background-color: #e01027;
+    cursor: pointer;
+    font-family: "Work Sans", sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 24px;
+    border-style: none;
+    border-radius: 5px;
+}

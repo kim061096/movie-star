@@ -1,0 +1,299 @@
+.user-detail {
+    background-image: url('./ImageDetailUser//movie-details-bg.jpg');
+    box-sizing: border-box;
+    width: 100%;
+    padding-left: 80px;
+}
+
+.bhd-page-user-detail {
+    padding-top: 40px;
+    margin-left: -15px;
+    display: flex;
+    flex-direction: row;
+    background-image: url('./ImageDetailUser//movie-details-bg.jpg');
+}
+
+.bhd-page-user-detail .info-user-detail {
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+    width: 45%;
+}
+
+
+
+.bhd-page-user-detail .info-user-detail .member--edit {
+    padding: 13px 22px 50px;
+    margin-bottom: 42px;
+    font-family: "Roboto", sans-serif;
+    background: #1c262f;
+    border-radius: 2px;
+}
+
+.bhd-page-user-detail .info-user-detail .member--info {
+    padding-left: 175px;
+    position: relative;
+    min-height: 220px;
+    margin-bottom: 23px;
+    border-bottom: 1px solid #23303b;
+}
+
+.bhd-page-user-detail .member--info .avatar {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.bhd-page-user-detail .member--info .avatar img {
+    border-radius: 8px;
+    width: 150px;
+    height: 200px;
+}
+
+.bhd-page-user-detail p {
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+
+.bhd-page-user-detail .info-user-detail .member--message p {
+    margin-bottom: 0;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin: 0 0 10px;
+}
+
+.bhd-page-user-detail .info-user-detail .title {
+    margin: 0 0 8px;
+    font-size: 15px;
+    line-height: 25px;
+    color: #42b033;
+    font-weight: 500;
+}
+
+.bhd-page-user-detail .info-user-detail .meta {
+    font-size: 0;
+}
+
+.bhd-page-user-detail .info-user-detail .meta li {
+    display: inline-block;
+    margin-right: 15px;
+    font-size: 15px;
+    color: #7c7c7b;
+    line-height: 23px;
+}
+
+.bhd-page-user-detail .info-user-detail .meta li:last-child {
+    margin-right: 0;
+    margin-top: 5px;
+}
+
+.bhd-page-user-detail .meta li strong {
+    font-weight: 500;
+}
+
+.bhd-page-user-detail .meta .point {
+    color: #facf04;
+    font-weight: 500;
+}
+
+.bhd-page-user-detail .info-user-detail .member--message strong {
+    font-weight: 500;
+    color: #40a933;
+}
+
+.bhd-page-user-detail .cardinfo-user-detail {
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.bhd-page-user-detail .member--edit .form--inside {
+    line-height: 35px;
+    color: #bfc9d2;
+    font-size: 15px;
+}
+
+.bhd-page-user-detail .form--inside .controls {
+    display: block;
+    position: relative;
+    padding-left: 150px;
+    margin-bottom: 15px;
+    font-family: "Roboto", sans-serif;
+    line-height: 35px;
+}
+
+.bhd-page-user-detail .form--inside .controls .txt--label {
+    width: 150px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.bhd-page-user-detail .form--inside .controls .inp--text {
+    padding-left: 15px;
+    background: #37424b;
+    border-radius: 2px;
+    outline: none;
+    border: none;
+    width: 100%;
+}
+
+
+/* --------------ardinfo-user-detail----------------------- */
+.bhd-page-user-detail .cardinfo-user-detail {
+    width: 45%;
+}
+
+.bhd-page-user-detail .member-card {
+    background: #121e26;
+    padding: 20px;
+    border-radius: 20px;
+    position: relative;
+}
+
+.bhd-page-user-detail .member-card span {
+    margin-left: 10px;
+}
+
+.bhd-page-user-detail .member-card h3 {
+    font-weight: 600;
+    text-transform: uppercase;
+    margin: 0 0 5px;
+    padding: 0;
+    color: #bfc9d2;
+}
+
+.bhd-page-user-detail .member-card>ul {
+    list-style-type: none;
+    margin: 5px 0;
+    padding: 25px 15px;
+    background-color: #39454f;
+    border-radius: 5px;
+    border: 1px solid #40a933;
+}
+
+.bhd-page-user-detail .member-card>ul>li {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #bfc9d2;
+    line-height: 25px;
+}
+
+.bhd-page-user-detail .member-card>ul>li>span {
+    letter-spacing: 2px;
+}
+
+
+.bhd-page-user-detail .member-card .lv,
+.no {
+    padding: 2px 8px;
+    border-radius: 3px;
+    margin-left: 5px;
+}
+
+.sign-out-cover {
+    width: 90%;
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 25px;
+    padding-bottom: 10px;
+}
+
+.sign-out {
+    padding: 10px;
+    border-radius: 5px;
+    color: #bfc9d2;
+    cursor: pointer;
+    font-weight: 600;
+    font-family: "Roboto", sans-serif;
+    box-shadow: 0px 2px 0px 2px rgb(30, 30, 30);
+    background-color: rgb(180, 6, 6);
+}
+
+.sign-out:hover {
+    background-color: red;
+}
+
+.transactions {
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+.transactions .transactions-detail {
+    width: 90%;
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.transactions .transactions-detail .member-history {
+    list-style-type: none;
+    margin: 5px 0 0 0;
+    padding: 15px;
+    background-color: #39454f;
+    border-radius: 5px;
+    border: 1px solid #40a933;
+}
+
+.transactions .transactions-detail .member-history h3 {
+    font-weight: 600;
+    text-transform: uppercase;
+    margin: 0 0 5px;
+    padding: 0;
+    color: rgb(193, 183, 183);
+}
+
+.transactions .transactions-detail .table-bordered {
+    width: 100%;
+    border: 1px solid rgb(44, 41, 41);
+    max-width: 100%;
+    margin-bottom: 20px;
+    background-color: transparent;
+    border-spacing: 0;
+    border-collapse: collapse;
+}
+
+.transactions .transactions-detail .table-bordered>thead:first-child>tr:first-child>th {
+    border-top: 0;
+}
+
+.transactions .member-history .table-bordered tr th {
+    color: rgb(226, 221, 221);
+    font-weight: 600;
+}
+
+.transactions .member-history .table-bordered>thead>tr>th {
+    border-bottom-width: 2px;
+    border: 1px solid rgb(44, 41, 41);
+    vertical-align: bottom;
+    padding: 8px;
+    line-height: 1.42857143;
+    text-align: center;
+    width: 16.67%;
+    font-size: 20px;
+}
+
+.transactions .member-history .table-bordered tr td {
+    color: #bfc9d2;
+    font-weight: 500;
+}
+
+.transactions .member-history .table-bordered>tbody>tr>td {
+    border-bottom-width: 2px;
+    border-left: 1px solid rgb(44, 41, 41);
+    vertical-align: top;
+    line-height: 1.42857143;
+    text-align: left;
+    padding-left: 10px;
+    padding-top: 10px
+}
+
+.transactions .member-history .table-bordered>tbody>tr {
+    border: 1px solid rgb(44, 41, 41);
+}

@@ -1,0 +1,366 @@
+.login-content {
+    background: url(http://localhost:3000/static/media/movie-details-bg.c5606e9….jpg);
+    background-repeat: no-repeat;
+    color: #fff;
+    overflow: auto;
+}
+
+.warper-content-register .section--promotion {
+    overflow: hidden;
+}
+
+.warper-content .container {
+    overflow: hidden;
+}
+
+.page--member {
+    position: relative;
+    padding-bottom: 89px;
+    background: #132028 url(./ImageBackground/bg-cinema-10.png) center top repeat;
+    margin-top: 0;
+    padding-top: 11px;
+}
+
+.page--member::after {
+    content: '';
+    bottom: 0;
+    left: 0;
+    height: 350px;
+    position: absolute;
+    width: 100%;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 1) 100%);
+    top: auto;
+    box-sizing: border-box;
+}
+
+.container {
+    position: relative;
+    z-index: 20;
+    max-width: 1170px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 20px;
+}
+
+.container::before {
+    display: table;
+    content: " ";
+    box-sizing: border-box;
+}
+
+.container::after {
+    clear: both;
+    display: table;
+    content: " ";
+    box-sizing: border-box;
+}
+
+.product--title {
+    margin-top: 10px;
+    padding-bottom: 15px;
+    color: #d4dd29;
+    border-color: #d4dd29;
+    cursor: pointer;
+    text-align: center;
+}
+
+.product--title .current {
+    color: #d4dd29;
+    border-color: #d4dd29;
+}
+
+.product--title h3 {
+    font-weight: 200;
+    font-size: 31px;
+    display: inline-block;
+    border-bottom: 1px solid transparent;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+.product--title .current a {
+    color: #d4dd29;
+    text-decoration: none;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.container .product--title span {
+    padding: 0 16px 0 14px;
+    font-size: 31px;
+    color: #eaeaea;
+}
+
+.bhd-page-user {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+.bhd-page-user::before {
+    display: table;
+    content: " ";
+    box-sizing: border-box;
+}
+
+.bhd-page-user::after {
+    clear: both;
+    display: table;
+    content: " ";
+    box-sizing: border-box;
+}
+
+.login-left {
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.register-right {
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.widget--right {
+    margin-bottom: 30px;
+}
+
+.bhd-page-user .title--member {
+    margin: 0 0 22px;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 33px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.member--login {
+    padding: 32px 25px;
+    background: #1c262f;
+    border-radius: 2px;
+}
+
+.bhd-page-user .form--inside {
+    line-height: 35px;
+    color: #bfc9d2;
+    font-size: 15px;
+}
+
+.form--inside .controls {
+    display: block;
+    position: relative;
+    padding-left: 150px;
+    font-family: "Roboto", sans-serif;
+    line-height: 35px;
+}
+
+.bhd-page-user .form--inside .txt--label {
+    width: 150px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    text-transform: capitalize
+}
+
+/*  */
+.bhd-page-user .form--inside .inp--text {
+    padding-left: 15px;
+    background: #37424b;
+    border-radius: 2px;
+    outline: none;
+    border: none;
+    width: 100%;
+}
+
+/*  */
+.bhd-page-user .form--inside .inp--text--email {
+    padding-left: 15px;
+    background: #37424b;
+    border-radius: 2px;
+    outline: none;
+    border: none;
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+/*  */
+.bhd-page-user .form--inside .help-block {
+    font-weight: normal;
+    color: #FF0000;
+    font-size: 14px;
+    display: block;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+/*  */
+.bhd-page-user .form--inside .form--last {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+/*  */
+.bhd-page-user .form--inside .form--last::before {
+    display: table;
+    content: " ";
+}
+
+.bhd-page-user .form--inside .form--last::before {
+    clear: both;
+    display: table;
+    content: " ";
+}
+
+.bhd-page-user .form--last .login-submit {
+    width: 175px;
+    display: inline-block;
+    height: 47px;
+    color: #fff;
+    border-radius: 4px;
+    outline: none;
+    border: none;
+    background: #42af33 url(./ImageButton/bg-button-yolo.png) 0 0 no-repeat;
+    font-family: "Roboto", sans-serif;
+    font-size: 18px;
+}
+
+/*  */
+.bhd-page-user .form--last .sign-up {
+    font-size: 16px;
+    color: #646e72;
+    text-decoration: underline;
+    font-family: "Roboto", sans-serif;
+    margin-left: auto;
+}
+
+/*  */
+.bhd-page-user .bhd-dieu-khoan .inp--checkbox {
+    font-size: 14px;
+    font-weight: 500;
+    font-family: "Roboto", sans-serif;
+    line-height: 23px;
+    margin: 4px 0 0;
+    box-sizing: border-box;
+    padding: 0;
+    position: relative;
+    padding-left: 25px !important;
+}
+
+.bhd-page-user .bhd-dieu-khoan>span {
+    cursor: pointer;
+    margin-left: 5px;
+}
+
+.bhd-page-user .bhd-dieu-khoan>span>a {
+    color: #42af33;
+    text-decoration: underline;
+    margin-left: 5px;
+}
+
+.warper-content .section--promotion {
+    overflow-x: hidden;
+}
+
+/*  */
+.login-content .btn-show-pass {
+    position: absolute;
+    z-index: 9999999;
+    margin-left: 3px;
+}
+
+/*  */
+.login-content .btn-show-pass .show-passs {
+    box-sizing: content-box;
+    font-size: 12px;
+    border-style: none;
+    padding: 0;
+    border: none;
+    background: none;
+    color: gray;
+    float: right;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    margin-left: 252px;
+}
+
+/*  */
+
+.register-right .btn-show-pass {
+    float: right;
+
+}
+
+/*  */
+.register-right .btn-show-pass .show-pass {
+    box-sizing: content-box;
+    font-size: 12px;
+    border-style: none;
+    padding: 0;
+    border: none;
+    background: none;
+    color: gray;
+    float: right;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+/*  */
+.register-right .form--lasts {
+    box-sizing: content-box;
+    font-size: 12px;
+    border-style: none;
+    padding: 0;
+    border: none;
+    background: none;
+    color: gray;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+/*  */
+.register-right .form--lasts .login-submit {
+    width: 175px;
+    display: inline-block;
+    height: 47px;
+    color: #fff;
+    border-radius: 4px;
+    outline: none;
+    border: none;
+    background: #42af33 url(./ImageButton/bg-button-yolo.png) 0 0 no-repeat;
+    font-family: "Roboto", sans-serif;
+    font-size: 18px;
+}
+
+/*  */
+.warper-content-register .section--promotion .slick-dots {
+    bottom: -50px !important;
+}
+
+.warper-content-register .section--promotion .slick-dots li {
+    background: white !important;
+    border-radius: 20px;
+}
+
+.warper-content-register .section--promotion .slick-dots li:hover {
+    background-color: rgb(84, 171, 53) !important;
+    color: white;
+}
+
+.warper-content-register .section--promotion .slick-dots li button:before {
+    content: unset;
+}
+
+.warper-content-register .section--promotion .promotion {
+    margin-left: unset;
+}
+
+.warper-content-register .section--promotion .promotion img {
+    margin-left: auto;
+}
+
+/*  */

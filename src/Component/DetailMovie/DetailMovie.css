@@ -1,0 +1,443 @@
+/* Common */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.slick-dots li button:before {
+    font-size: 15px !important;
+    color: white !important;
+    margin-top: 70px !important;
+}
+
+/*  */
+
+.warper {
+    width: 100%;
+    background: url(./ImageBackgroundDetailMovie/movie-details-bg.jpg);
+    background-repeat: no-repeat;
+    height: auto;
+}
+
+.film {
+    color: #fff;
+    background-position: top;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.film .container {
+    margin-top: 0 !important;
+}
+
+.film--detail {
+    text-align: left;
+    padding: 25px 0px;
+    margin-top: 30px;
+}
+
+.film--detail h3 {
+    display: inline;
+    padding: 15px 0 20px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.film--detail h3 a {
+    text-decoration: none;
+    font-weight: 300;
+    font-size: 24px;
+    color: #fbfbf9;
+    transition: 0.4s ease all;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.film--detail .spacing {
+    margin: 0 5px;
+}
+
+
+.film--detail-content {
+    padding-bottom: 9px;
+}
+
+.film--detail-content .row {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+.col-thubnail {
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+
+.col-thubnail .movie-full {
+    width: 380px;
+}
+
+.product {
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+    width: 580px;
+}
+
+.product .product-name h3 {
+    display: inline-block;
+    margin: 0;
+    font-weight: 400;
+    font-size: 24px;
+    vertical-align: top;
+    width: 550px;
+}
+
+.product .film-detail {
+    padding-top: 18px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    color: #a6b2c9;
+    line-height: 26px;
+    font-weight: 400;
+    width: 750px;
+}
+
+.product .film-info {
+    padding-top: 23px;
+    width: 300px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.product .film-info li {
+    position: relative;
+    width: 350px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    list-style: none;
+    padding-bottom: 20px;
+}
+
+.product.film-info .col-left {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.product .film-info .col-right {
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    color: #e8eff5;
+}
+
+.product .fil--info .col-right--phanloai {
+    font-size: 17px;
+    font-weight: bold;
+    color: #f8090f;
+}
+
+.product .button--green {
+    display: flex;
+    float: left;
+}
+
+.product .button--green .btn--green {
+    margin-right: 6px;
+    min-width: 139px;
+    height: 43px;
+    text-decoration: none;
+    text-align: center;
+    line-height: 43px;
+    vertical-align: top;
+    padding: 0 10px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+
+.lich-phim {
+    min-height: 350px;
+    position: relative;
+    color: #fff;
+    background-position: top;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    margin-top: 0;
+    padding-top: 35px;
+    padding-bottom: 30px;
+}
+
+.lich-phim::after {
+    content: '';
+    bottom: 0;
+    left: 0;
+    height: 350px;
+    position: absolute;
+    width: 100%;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 1) 100%);
+    top: auto;
+}
+
+.lich-phim .muave {
+    text-align: center;
+    text-transform: uppercase;
+    margin: 10px 5px;
+    border-bottom: 2px solid #608a2e;
+    padding: 15px 0;
+    font-size: 20px;
+}
+
+.lich-phim .list-times {
+    position: relative;
+    max-width: 970px;
+    margin: 0 auto;
+    z-index: 97;
+}
+
+.lich-phim .list-times .flexslider {
+    position: relative;
+}
+
+.viewport {
+    overflow: hidden;
+    position: relative;
+    display: flex;
+}
+
+
+.tab-showtimes-controls .tab-control {
+    display: block;
+    text-decoration: none;
+    font-weight: 500;
+    line-height: 24px;
+    padding: 8px 0;
+    border-bottom: 2px solid #212b35;
+    transition: 0.4s ease all;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.tab-showtimes-controls .tab-control .week {
+    font-size: 14px;
+    color: #8c9bb4;
+    display: block;
+}
+
+.tab-showtimes-controls .tab-control .day {
+    font-size: 12px;
+    color: #8c9bb4;
+    display: block;
+}
+
+.tab-showtimes-contents .tab-content {
+    display: block;
+}
+
+.list-showtimes-cinema {
+    margin-top: 20px;
+}
+
+
+.item-showtimes-cinema .info {
+    height: auto;
+    position: absolute;
+    /* background: #1c2936; */
+    top: 10px;
+    left: 0;
+    width: 215px;
+    line-height: 24px;
+    box-shadow: 3px 5px 21px 0px rgb(5 12 17);
+}
+
+
+.item-showtimes-cinema .info .title {
+    color: #ffffff;
+    font-size: 16px;
+    margin: 0;
+    line-height: 24px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.item-showtimes-cinema .info .inside>p {
+    color: #90a0ba;
+    font-size: 12px;
+    margin: 0;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.item-showtimes-cinema .info .btn--location {
+    background: #42af33;
+    color: #ffffff;
+    font-size: 12px;
+    display: block;
+    height: 30px;
+    line-height: 32px;
+    text-align: center;
+    position: relative;
+    text-decoration: none;
+    z-index: 2;
+    box-shadow: 8px 14px 16px 0px rgb(32 32 32 / 32%);
+    transition: 0.4s ease all;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.date {
+    display: block;
+}
+
+.date .list-film-type {
+    position: relative;
+    list-style: none;
+}
+
+.date .list-film-type .item--film-type {
+    position: relative;
+    padding-left: 113px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    min-height: 120px;
+}
+
+.date .list-film-type .type {
+    position: absolute;
+    top: 10px;
+    left: 0;
+    font-size: 14px;
+    line-height: 23px;
+    color: #97a5be;
+    padding-left: 37px;
+}
+
+.date .list-film-type .type-span {
+    display: block;
+    padding: 0px 5px;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 700;
+    background: #42af33;
+    color: #fff;
+    border-radius: 2px;
+    max-width: 50px;
+}
+
+.date .list-film-type .film-rating {
+    margin-top: 10px;
+    padding: 3px;
+    background: none;
+    border: 2px solid #f8090f;
+    color: #f8090f;
+    display: block;
+    padding: 0px 5px;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 700;
+    border-radius: 2px;
+    max-width: 50px;
+}
+
+.film--detail-bottom {
+    padding-bottom: 100px;
+}
+
+
+.sub1 {
+    width: 800px;
+    flex-direction: column;
+}
+
+.sub2 {
+    display: flex;
+    width: fit-content;
+}
+
+
+
+.comment-detail-movie {
+    width: 300px;
+    padding: 5px 10px;
+    background-color: rgb(99, 96, 96);
+    border-radius: 10px;
+    border: none;
+    color: white;
+    height: fit-content;
+    margin-top: 20px;
+    float: right;
+    z-index: 0;
+}
+
+
+.comment-detail-movie .form-comment {
+    display: flex;
+    flex-direction: column;
+}
+
+.comment-detail-movie .form-comment h3 {
+    font-weight: bolder;
+    font-size: 15px;
+}
+
+.comment--rating-left-cont h2 {
+    font-weight: bolder;
+    font-size: 14px;
+    line-height: 30px;
+}
+
+.comment-detail-movie .form-comment h4 {
+    font-size: 12px;
+    margin-block-start: 0;
+}
+
+.comment-detail-movie .comment-feel {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.comment-detail-movie .comment--rating {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+}
+
+.comment-detail-movie .comment--rating-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}
+
+.comment-detail-movie .comment--rating-right {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}
+
+.comment-detail-movie .btn {
+    color: #fff !important;
+    background-color: #0d121b;
+    box-sizing: content-box;
+    cursor: pointer;
+    padding: 10px;
+    margin-left: 80px;
+    border-radius: 5px;
+}
+
+.trailer {
+    display: block;
+    margin-top: -510px;
+    z-index: 999999999999;
+    margin-left: -10px;
+    position: relative;
+}
+

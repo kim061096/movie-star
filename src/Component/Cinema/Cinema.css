@@ -1,0 +1,146 @@
+.cinema {
+  background-image: url(./ImageBackgroundFilm/movie-details-bg.jpg);
+  position: relative;
+  overflow: hidden;
+}
+
+.cinema .film_list {
+  font-size: 20px;
+  line-height: 40px;
+  margin: 0;
+  font-weight: 300;
+  text-transform: uppercase;
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  padding: 50px 0;
+}
+
+.cinema .film_list a {
+  color: white;
+}
+
+.film_list span {
+  padding: 0 15px;
+  color: white;
+}
+
+.film_list li:hover {
+  text-decoration: underline;
+}
+
+.film_list li a:hover {
+  color: green;
+}
+
+.sub_cinema {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.sub_cinema .cinema_name {
+  margin-bottom: 20px;
+}
+
+.sub_cinema .cinema_name li {
+  margin-right: 50px;
+  background-color: #203e71;
+  padding: 12px 28px;
+  width: 100px;
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 10px;
+}
+
+.sub_cinema .cinema_name img {
+  box-sizing: border-box;
+  width: 45px;
+  height: 45px;
+  border-radius: 10px;
+}
+/* Thêm cái này */
+.sub_cinema .cinema_name a {
+  width: 100%;
+  text-align: center;
+}
+/*  */
+.sub_cinema .cinema_name li:hover {
+  background-color: green;
+}
+/*  */
+.cinema .branchLs {
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 100px;
+  margin-bottom: 30px;
+}
+/*  */
+.cinema_detail {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+  line-height: 24px;
+  flex-direction: column;
+}
+
+.cinema_detail li {
+  margin-right: 20px;
+  width: 200px;
+  height: 180px;
+  background-color: #151f28;
+  box-shadow: 3px 5px 21px 0px rgb(5 12 17);
+}
+
+
+.info img {
+  width: 15px;
+  height: 15px;
+  border-radius: 2px;
+  margin-right: 5px;
+}
+
+.info h4 {
+  min-height: 36px;
+  color: #ffffff;
+  font-size: 16px;
+  line-height: 24px;
+  margin-top: 10px;
+  margin-bottom: 5px;
+  margin-left: 10px;
+}
+
+.info p {
+  margin-top: 5px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+  min-height: 72px;
+  color: #90a0ba;
+  font-size: 14px
+}
+
+.cinema_detail .xem {
+  background: #263247;
+  font-size: 16px;
+  display: block;
+  height: 30px;
+  line-height: 32px;
+  text-align: center;
+  position: relative;
+  text-decoration: none;
+  z-index: 2;
+  box-shadow: 8px 14px 16px 0px rgb(32 32 32 / 32%);
+  text-transform: uppercase;
+  width: 200px
+}
+
+.cinema_detail .xem:hover {
+  background-color: #ff9125;
+}
+
+/* Thêm đoạn này */
+.sub_cinema .cinema_name li:hover {
+  cursor: pointer;
+}

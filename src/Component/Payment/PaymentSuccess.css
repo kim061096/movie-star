@@ -1,0 +1,64 @@
+.payment-success {
+    height: 100vh;
+    background: url(./ImageBackground/movie-details-bg.jpg);
+    background-position: top;
+    background-size: cover;
+    background-attachment: unset;
+    background-repeat: no-repeat;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow-x: hidden;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.payment-success .success-inline {
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    margin-bottom: 150px;
+}
+
+.payment-success .success-inline .success {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.payment-success .success-inline .success img {
+    width: 100px;
+}
+
+.payment-success .success-inline .success>h1 {
+    font-size: 50px;
+    font-weight: bold;
+    margin-left: 25px;
+}
+
+.payment-success .success-inline .success-message {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.payment-success .success-inline .success-message button {
+    border-radius: 10px;
+    padding: 10px 20px 10px 20px;
+    line-height: 36px;
+    margin-top: 20px;
+    text-align: center;
+    background-color: rgb(84, 171, 53);
+    cursor: pointer;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.payment-success .success-inline .success-message button:hover {
+    background-color: rgb(85, 184, 49);
+}
