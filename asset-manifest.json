@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "./static/css/main.1794e6e3.css",
+    "main.js": "./static/js/main.d3bcbba5.js",
+    "static/media/Vani_BHD_Web-banner-1920x1080@4x-1.jpg": "./static/media/Vani_BHD_Web-banner-1920x1080@4x-1.b415c9de69f6e4957428.jpg",
+    "static/media/TKH-website-1920x1080.png": "./static/media/TKH-website-1920x1080.05b5bd866eea095db060.png",
+    "static/media/B2S-WEBSITE-1.png": "./static/media/B2S-WEBSITE-1.e83918784bdd2d241d60.png",
+    "static/media/1920x1080-10.10.jpg": "./static/media/1920x1080-10.10.4ea3dd4419d168d1140c.jpg",
+    "static/media/bg-cinema-10.png": "./static/media/bg-cinema-10.661d49ce799a9f11ed0e.png",
+    "static/media/movie-details-bg.jpg": "./static/media/movie-details-bg.c5606e91b33264d24a4d.jpg",
+    "static/media/App.jpg": "./static/media/App.59b9651e0571c0c696bd.jpg",
+    "static/media/scroll-down.png": "./static/media/scroll-down.05a2d7dcc609b5b93c81.png",
+    "static/media/dathongbao-1.png": "./static/media/dathongbao-1.c9c5a18d09b64b9ab518.png",
+    "static/media/bg-home-02.jpg": "./static/media/bg-home-02.a0e07a78134562e44320.jpg",
+    "static/media/bg-button-yolo.png": "./static/media/bg-button-yolo.0aa500410851ac32b4db.png",
+    "static/media/line-header1.png": "./static/media/line-header1.ce120c3dc6eb20e213bd.png",
+    "static/media/footer-cured.png": "./static/media/footer-cured.f389c93ba1e3cef7f0cb.png",
+    "static/media/correct.png": "./static/media/correct.a8d20cd48e2e0d022083.png",
+    "static/media/slick.svg": "./static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "./static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "./static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "./static/media/slick.295183786cd8a1389865.woff",
+    "index.html": "./index.html",
+    "main.1794e6e3.css.map": "./static/css/main.1794e6e3.css.map",
+    "main.d3bcbba5.js.map": "./static/js/main.d3bcbba5.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1794e6e3.css",
+    "static/js/main.d3bcbba5.js"
+  ]
+}
